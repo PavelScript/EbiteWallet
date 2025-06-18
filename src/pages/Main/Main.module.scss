@@ -1,0 +1,32 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100dvmax;
+    width: 100%;
+    background-color: white;
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+
+        .logo {
+            width: 100%;
+            height: 80%;
+        }
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .mainContainer {
+        .mainContent {
+            .logo {
+                width:50%;
+            }
+        }
+    }
+
+}

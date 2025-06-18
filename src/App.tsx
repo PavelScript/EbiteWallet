@@ -1,10 +1,10 @@
 import "./App.scss";
+import Main from "./pages/Main/Main";
 
 function App() {
   return (
     <>
-      <h1>This is Ebite Techologies</h1>
-      <button>Let's Ebite this world with us!</button>
+     <Main />
     </>
   );
 }
