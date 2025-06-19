@@ -1,7 +1,8 @@
 import styles from "./Main.module.scss";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-import WalletBalanceInfo from "../../components/WalletBalanceInfo/WalletBalanceInfo";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
+import WalletBalanceInfo from "@/components/WalletBalanceInfo/WalletBalanceInfo";
+import NavigationBar from "@/components/NavigationBar/NavigationBar";
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
         <WalletBalanceInfo />
       </div>
       <Footer />
+      <NavigationBar />
     </div>
   );
 }

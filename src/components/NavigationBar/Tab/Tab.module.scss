@@ -1,0 +1,17 @@
+.tab {
+  height: 60px;
+  width: 60px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .icon {
+    color: black;
+  }
+
+  span {
+    color: black;
+  }
+}
