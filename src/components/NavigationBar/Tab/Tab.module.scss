@@ -8,10 +8,21 @@
   justify-content: center;
 
   .icon {
-    color: black;
+    color: gray;
   }
 
   span {
-    color: black;
+    color: gray;
+    font-weight: 500;
+  }
+
+  &.active {
+    .icon {
+      color: rgb(21, 98, 166);
+    }
+    
+    span {
+      color: rgb(21, 98, 166);
+    }
   }
 }

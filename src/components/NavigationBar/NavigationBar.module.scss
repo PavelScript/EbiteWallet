@@ -1,6 +1,12 @@
 .bar {
-  width: 100%;
   position: fixed;
   bottom: 0;
+
+  width: 100%;
+  padding: 4px 8px;
   background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
 }
