@@ -22,22 +22,27 @@
             font-weight: 400;
             color: black;
             text-align: center;
+            padding-bottom: 25px;
         }
 
         .currencyList {
             display:flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 50px;
 
 
 
 
-            .usdt {
 
-                margin-top: 30px;
+            .currency {
+
+                margin-top: 10px;
+                background-color: rgb(234, 234, 234);
+                border-radius: 10px;
                 display: grid;
                 grid-template-columns: 50px 50px 50px;
-                width:250px;
+                            width:95%;
                 align-items: center;
                 justify-content: start;
                 gap:50px;
