@@ -14,7 +14,7 @@ const WalletBalanceInfo = () => {
       <div className={styles.buttons}>
         <div>
           <button className={styles.button}>
-            <img src="/plusIcon.svg" alt="Add" width="16" height="16" />
+            <img className={styles.plusIcon} src="/plusIcon.svg" alt="Add"  />
           </button>
           <p>Пополнить</p>
         </div>
@@ -26,7 +26,7 @@ const WalletBalanceInfo = () => {
         </div>
         <div>
           <button className={styles.button}>
-            <img src="/shoppingCart.svg" alt="Add" width="20" height="20" />{" "}
+            <img className={styles.shoppingCart} src="/shoppingCart.svg" alt="Add" />{" "}
           </button>
           <p>Оплатить</p>
         </div>

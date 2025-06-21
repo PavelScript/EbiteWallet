@@ -25,17 +25,22 @@
         }
 
         .currencyList {
-
+            display:flex;
+            flex-direction: column;
+            align-items: center;
 
 
 
 
             .usdt {
-                margin-top: 15px;
-                display: flex;
-                flex-direction: row;
+
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 50px 50px 50px;
+                width:250px;
                 align-items: center;
-                justify-content: space-around;
+                justify-content: start;
+                gap:50px;
 
                 img {
                     width: 50px;
@@ -43,7 +48,6 @@
 
                 p {
                     color: black;
-                    text-align: center;
                 }
             }
         }

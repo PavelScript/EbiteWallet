@@ -63,19 +63,30 @@
             font-size: 1.2rem;
         }
 
-        .plusButton {
-            text-align: center;
-        }
+
+            .plusIcon {
+                text-align: center;
+                width: 16px;
+                height:16px;
+            }
+
+            .shoppingCart {
+                text-align: center;
+                width: 16px;
+                height:16px;
+            }
+
 
     }
 }
 
-@media (max-height:880px) {
+@media (max-height:800px) {
     .balanceInfoWrapper {
+        padding-top: 20px;
 
         .totalMoney {
 
-
+            padding-top: 20px;
 
             .moneyValue {
 
@@ -113,7 +124,7 @@
             text-align: center;
             justify-content: space-around;
             align-items: center;
-            margin-bottom: 100px;
+            margin-bottom: 40px;
             font-size: 0.9rem;
 
             button {
@@ -125,8 +136,16 @@
                 font-size: 1rem;
             }
 
-            .plusButton {
+            .plusIcon {
                 text-align: center;
+                width: 16px;
+                height:16px;
+            }
+
+            .shoppingCart {
+                text-align: center;
+                width: 16px;
+                height:16px;
             }
 
         }
