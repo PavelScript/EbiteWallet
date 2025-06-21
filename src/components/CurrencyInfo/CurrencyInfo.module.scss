@@ -1,0 +1,56 @@
+.currencyInfoWrapper {
+    background-color: rgb(15, 99, 184);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .innerWrapper {
+        margin-top: 20px;
+        margin-bottom: 88px;
+        border-radius: 15px;
+        background-color: white;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+
+        .mainText {
+            margin-top: 15px;
+            color: black;
+            text-align: center;
+        }
+
+        .currencyList {
+
+
+
+
+
+            .usdt {
+                margin-top: 15px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+                img {
+                    width: 50px;
+                }
+
+                p {
+                    color: black;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+    h2 {
+        color: black;
+    }
+}

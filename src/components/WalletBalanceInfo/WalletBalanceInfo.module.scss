@@ -4,8 +4,18 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    padding-top: 50px;
+    align-items: center;
+    background-color: rgb(47, 128, 207);
+
+    .userName {
+        font-weight: 500;
+        font-size: 1.5rem;
+
+    }
 
     .userAvatar {
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -13,15 +23,15 @@
 
 
         img {
-            clip-path: circle(50%);
-            height: 75px;
-            width: 75px;
+            border-radius: 15px;
+            height: 100px;
+            width: 80px;
             object-fit: cover;
         }
     }
 
     .totalMoney {
-        padding-top: 20px;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -37,13 +47,25 @@
 
     .buttons {
         padding-top: 20px;
-        display:flex;
-        width:100%;
+        display: flex;
+        width: 100%;
         text-align: center;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 100px;
 
+        button {
+            width: 4rem;
+            height: 3rem;
+        }
+
+        .arrowUp {
+            font-size: 1.2rem;
+        }
+
+        .plusButton {
+            text-align: center;
+        }
 
     }
 }
