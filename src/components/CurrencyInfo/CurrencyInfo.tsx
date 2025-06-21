@@ -9,10 +9,18 @@ const CurrencyInfo = () => {
         <span className={styles.mainText}>Курс криптовалют</span>
         <div className={styles.currencyList}>
           <div className={styles.currency}>
-            <img src={usdtIcon} alt="USDT" /> <p>USDT </p><p>65 rub</p>
+            <img src={usdtIcon} alt="USDT" />
+            <div className={styles.currencyValue}>
+              <p>USDT </p>
+              <p className={styles.valueNumber}>65 rub</p>
+            </div>
           </div>
           <div className={styles.currency}>
-            <img src={doge} alt="doge" /> <p>DOGE </p><p>150 rub</p>
+            <img src={doge} alt="doge" />{" "}
+            <div className={styles.currencyValue}>
+              <p>DOGE </p>
+              <p className={styles.valueNumber}>150 rub</p>
+            </div>
           </div>
         </div>
       </div>
