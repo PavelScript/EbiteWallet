@@ -54,61 +54,65 @@
         align-items: center;
         margin-bottom: 100px;
 
+        .button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         button {
             width: 4rem;
             height: 3rem;
+            display:flex;
+            align-items: center;
+            justify-items: center;
         }
 
         .arrowUp {
             font-size: 1.2rem;
+            width: 20px;
+            height: 20px;
+            
         }
 
 
-            .plusIcon {
-                text-align: center;
-                width: 16px;
-                height:16px;
-            }
+        .plusIcon {
+            text-align: center;
+            width: 16px;
+            height: 16px;
+        }
 
-            .shoppingCart {
-                text-align: center;
-                width: 16px;
-                height:16px;
-            }
+        .shoppingCart {
+            text-align: center;
+            width: 16px;
+            height: 16px;
+        }
 
 
     }
 }
 
-@media (max-height:800px) {
+@media (max-height:670px) {
     .balanceInfoWrapper {
         padding-top: 20px;
 
         .totalMoney {
-
             padding-top: 20px;
 
             .moneyValue {
-
-
                 font-size: 1.5rem;
             }
 
         }
 
-
         height: 50%;
-
 
         .userName {
             font-size: 1.1rem;
-
         }
 
         .userAvatar {
-
-
-
             img {
                 border-radius: 15px;
                 height: 80px;
@@ -139,13 +143,13 @@
             .plusIcon {
                 text-align: center;
                 width: 16px;
-                height:16px;
+                height: 16px;
             }
 
             .shoppingCart {
                 text-align: center;
                 width: 16px;
-                height:16px;
+                height: 16px;
             }
 
         }

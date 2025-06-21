@@ -1,4 +1,5 @@
 import styles from "./WalletBalanceInfo.module.scss";
+import arrowUp from "../../assets/arrowUp.svg";
 
 const WalletBalanceInfo = () => {
   return (
@@ -12,19 +13,19 @@ const WalletBalanceInfo = () => {
         <p className={styles.moneyValue}>666.99 USDT</p>
       </div>
       <div className={styles.buttons}>
-        <div>
+        <div className={styles.button}>
           <button className={styles.button}>
             <img className={styles.plusIcon} src="/plusIcon.svg" alt="Add"  />
           </button>
           <p>Пополнить</p>
         </div>
-        <div>
+        <div className={styles.button}>
           <button className={styles.button}>
-            <p className={styles.arrowUp}>⬈</p>
+            <img className={styles.arrowUp} src={arrowUp} alt="arrowUp" />
           </button>
           <p>Отправить</p>
         </div>
-        <div>
+        <div className={styles.button}>
           <button className={styles.button}>
             <img className={styles.shoppingCart} src="/shoppingCart.svg" alt="Add" />{" "}
           </button>
