@@ -14,14 +14,12 @@ const WalletBalanceInfo = () => {
       <div className={styles.buttons}>
         <div>
           <button className={styles.button}>
-            {" "}
             <img src="/plusIcon.svg" alt="Add" width="16" height="16" />
           </button>
           <p>Пополнить</p>
         </div>
         <div>
           <button className={styles.button}>
-            {" "}
             <p className={styles.arrowUp}>⬈</p>
           </button>
           <p>Отправить</p>
