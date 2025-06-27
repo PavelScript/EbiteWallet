@@ -1,6 +1,6 @@
 import styles from "./CurrencyInfo.module.scss";
 import usdtIcon from "../../assets/USDT.svg";
-import doge from "../../assets/Doge.png";
+import doge from "../../assets/doge.png";
 
 const CurrencyInfo = () => {
   return (
