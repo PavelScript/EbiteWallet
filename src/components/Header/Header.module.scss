@@ -1,19 +1,20 @@
 .headerContainer {
     background-color: rgb(47, 128, 207);
     height: 8%;
-    width: 100vw;
+    min-width: 375px;
+    max-width: 450px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
 
     .logo {
         border-radius: 15px 0px 0px 15px;
-        width:50%;
-        height:100%;
-        
+        width: 50%;
+        height: 100%;
+
     }
 
 
-    
+
 }

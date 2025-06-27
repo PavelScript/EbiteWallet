@@ -3,7 +3,8 @@
     flex-direction: column;
     height: 100vh;
     height: 100svh;
-    width: 100%;
+    min-width: 375px;
+    max-width: 450px;
     background-color: rgb(47, 128, 207);
     
 
