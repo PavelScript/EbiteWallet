@@ -1,6 +1,5 @@
 .currencyInfoWrapper {
     background-color: rgb(15, 99, 184);
-    height: 50%;
     width: 100%;
     border-radius: 15px;
     display: flex;
@@ -8,10 +7,10 @@
     align-items: center;
 
     .innerWrapper {
-        margin-bottom: 88px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         border-radius: 15px;
         background-color: white;
-        height: 100%;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -19,17 +18,18 @@
 
 
         .mainText {
+            margin-top: 10px;
             font-weight: 400;
             color: black;
             text-align: center;
-            padding-bottom: 25px;
+            padding-bottom: 5px;
         }
 
         .currencyList {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
 
 
 
@@ -43,21 +43,28 @@
                 display: flex;
                 width: 95%;
                 align-items: center;
-                justify-content: space-between;
+
 
                 img {
                     width: 50px;
+                    height: 50px;
                 }
 
                 p {
                     color: black;
 
+
+                }
+
+                .currencyValue {
+                    margin-left:23%;
                 }
 
                 .valueNumber {
                     font-weight: 400;
                     font-size: 0.8rem;
-                    margin-right: 10px;
+
+
                 }
             }
         }

@@ -6,11 +6,11 @@ const WalletBalanceInfo = () => {
     <div className={styles.balanceInfoWrapper}>
       <div className={styles.userAvatar}>
         <img src="/avatar.png" alt="user avatar" />
-        <p className={styles.userName}>Igor Pinkman</p>
+        <p className={styles.userName}>User_name</p>
       </div>
       <div className={styles.totalMoney}>
         <p>Общий баланс</p>
-        <p className={styles.moneyValue}>666.99 USDT</p>
+        <p className={styles.moneyValue}>111.2 USDT</p>
       </div>
       <div className={styles.buttons}>
         <div className={styles.button}>

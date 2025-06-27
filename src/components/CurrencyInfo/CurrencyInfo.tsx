@@ -1,6 +1,8 @@
 import styles from "./CurrencyInfo.module.scss";
-import usdtIcon from "../../assets/USDT.svg";
-import doge from "../../assets/doge.png";
+import bitcoin from "../../assets/bitcoin.webp";
+import etherium from "../../assets/etherium.webp";
+import tether from "../../assets/tether.webp";
+// import xrp from "../../assets/XRP.webp";
 
 const CurrencyInfo = () => {
   return (
@@ -9,19 +11,33 @@ const CurrencyInfo = () => {
         <span className={styles.mainText}>Курс криптовалют</span>
         <div className={styles.currencyList}>
           <div className={styles.currency}>
-            <img src={usdtIcon} alt="USDT" />
+            <img src={bitcoin} alt="bitcoin" />
             <div className={styles.currencyValue}>
-              <p>USDT </p>
-              <p className={styles.valueNumber}>65 rub</p>
+              <p>Bitcoin</p>
+              <p className={styles.valueNumber}>$106 823,19 USD</p>
             </div>
           </div>
           <div className={styles.currency}>
-            <img src={doge} alt="doge" />{" "}
+            <img src={etherium} alt="etherium" />{" "}
             <div className={styles.currencyValue}>
-              <p>DOGE </p>
-              <p className={styles.valueNumber}>150 rub</p>
+              <p>Etherium</p>
+              <p className={styles.valueNumber}>$2 430,60 USD</p>
             </div>
           </div>
+          <div className={styles.currency}>
+            <img src={tether} alt="tether" />{" "}
+            <div className={styles.currencyValue}>
+              <p>Thether</p>
+              <p className={styles.valueNumber}>$1 USD</p>
+            </div>
+          </div>
+          {/* <div className={styles.currency}>
+            <img src={xrp} alt="XRP" />{" "}
+            <div className={styles.currencyValue}>
+              <p>XRPr</p>
+              <p className={styles.valueNumber}>$2,08 USD</p>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
